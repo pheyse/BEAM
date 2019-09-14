@@ -22,7 +22,7 @@ Apace V2
 ### Encrypt and decrypt strings
 ```java
 Beam beam = new Beam("myPassword");
-String encryptedText = beam.encrypt("my text"); // creates a string such as 8087ED5FBB314E9F84B968AED20089CE7C9ABB9D0A8A8F950BF...
+String encryptedText = beam.encrypt("my text"); // creates a string such as 8087ED5FBB314E9F84B968AED20089...
 String decryptedText = beam.decrypt(encryptedText); // produces "my text" again 
 ```
 
