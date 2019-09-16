@@ -1,4 +1,12 @@
-target/
+target/failsafe-reports
+target/generated-sources
+target/generated-test-sources
+target/maven-archiver
+target/maven-status
+target/surefire-reports
+target/classes
+target/test-classes
+target/apidocs
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
