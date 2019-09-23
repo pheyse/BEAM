@@ -58,6 +58,17 @@ int blockLength = 64;
 Beam beam = new Beam("myPassword", blockLength);
 ```
 
+## Including via Maven
+```xml
+[...]
+		<dependency>
+			<groupId>de.bright-side.beam</groupId>
+			<artifactId>beam</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+[...]
+```
+
 ## Change History
 Version 1.0.0 (2019-08-20)
 - first version 
